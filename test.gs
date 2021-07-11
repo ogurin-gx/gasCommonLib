@@ -1,3 +1,8 @@
+function testGetComments() {
+
+  const DOC_ID = ScriptProperties.getProperty("DOC_ID");
+  console.log(getComments(DOC_ID));
+}
 /*
 
 // zoomアクセス
@@ -7,6 +12,7 @@ this.ZM_USER_ID = ScriptProperties.getProperty("ZM_USER_ID");
 
 // slackアクセス
 this.SLK_WEBHOOK_ID = ScriptProperties.getProperty("SLK_WEBHOOK_ID");
+
 
 function testZoom() {
 
@@ -97,15 +103,17 @@ function testGetItems() {
   console.log(items);
 }
 
-
+*/
 // プロパティ設定用
 function setProperty(){
 
+/*
+  ScriptProperties.setProperty("DOC_ID","**********");
   ScriptProperties.setProperty("ZM_API_KEY","***********");
   ScriptProperties.setProperty("ZM_API_SECRET","***********");
   ScriptProperties.setProperty("ZM_USER_ID","***********");
 
   ScriptProperties.setProperty("SLK_WEBHOOK_ID","*******");
   ScriptProperties.setProperty("SS_ID","**********");
+  */
 }
-*/
